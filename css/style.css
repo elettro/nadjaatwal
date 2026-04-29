@@ -614,6 +614,12 @@ h1 span {
   font-weight: 900;
 }
 
+.spotify-section iframe {
+  margin-top: 34px;
+  border: 0;
+  box-shadow: var(--shadow);
+}
+
 .quote-section {
   padding: 80px 0;
   border-top: 1px solid var(--line);
