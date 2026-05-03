@@ -523,6 +523,8 @@ h1 span {
 
 .about-feature-image {
   margin-top: 34px;
+  width: min(30%, 360px);
+  margin-left: auto;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
@@ -534,6 +536,12 @@ h1 span {
   display: block;
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 900px) {
+  .about-feature-image {
+    width: min(65%, 360px);
+  }
 }
 
 .feature-grid {
