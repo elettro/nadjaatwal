@@ -521,6 +521,21 @@ h1 span {
   margin-top: 22px;
 }
 
+.about-feature-image {
+  margin-top: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.about-feature-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .feature-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.9fr;
