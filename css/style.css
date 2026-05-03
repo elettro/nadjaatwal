@@ -374,9 +374,9 @@ h1 span {
 
 .podcast-cover h2 {
   position: relative;
-  max-width: 360px;
+  max-width: 300px;
   font-family: "Playfair Display", serif;
-  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  font-size: clamp(2.15rem, 4.3vw, 3.9rem);
 }
 
 .podcast-cover p {
