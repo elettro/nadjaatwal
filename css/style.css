@@ -522,7 +522,8 @@ h1 span {
 }
 
 .about-feature-image {
-  margin-top: 34px;
+  margin: 34px auto 0;
+  max-width: min(760px, 86vw);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
