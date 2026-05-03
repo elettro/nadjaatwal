@@ -644,6 +644,10 @@ h1 span {
   font-weight: 900;
 }
 
+.spotify-title-line {
+  display: block;
+}
+
 .spotify-section iframe {
   margin-top: 34px;
   border: 0;
