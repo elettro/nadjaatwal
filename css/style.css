@@ -652,6 +652,11 @@ h1 span {
 
 .spotify-title-line {
   display: block;
+  white-space: nowrap;
+}
+
+.spotify-section .section-head h2 {
+  font-size: clamp(2.4rem, 4.4vw, 4.6rem);
 }
 
 .spotify-section iframe {
