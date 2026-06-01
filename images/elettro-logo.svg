@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-labelledby="elettroLogoTitle">
+  <title id="elettroLogoTitle">Elettro logo</title>
+  <defs>
+    <linearGradient id="elettroGradient" x1="6" y1="4" x2="34" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4c76a"/>
+      <stop offset="0.52" stop-color="#fff3bc"/>
+      <stop offset="1" stop-color="#ff4d7d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="#05050a" stroke="url(#elettroGradient)" stroke-width="2.5"/>
+  <path d="M13 11h15v4H18v3h8v4h-8v3h10v4H13V11Z" fill="url(#elettroGradient)"/>
+  <path d="M23 9 16 22h6l-4 9 10-14h-6l1-8Z" fill="#ffffff" opacity="0.92"/>
+</svg>
