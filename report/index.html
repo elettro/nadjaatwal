@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NadjaAtwal.net SEO & AI Optimization Report</title>
   <meta name="description" content="SEO and AI Optimization report for NadjaAtwal.net covering scores, findings, schema recommendations, AI-readiness, and priority tasks." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
   <style>
     :root {
       --bg: #0b0d12;
@@ -27,6 +31,10 @@
       line-height: 1.55;
     }
     a { color: var(--gold); }
+    .site-shell a { text-decoration: none; }
+    .topbar .brand { color: var(--text); }
+    .topbar .nav-cta { color: #05050a; }
+    .site-footer a { color: inherit; }
     .wrap { max-width: 1180px; margin: 0 auto; padding: 34px 22px 60px; }
     .hero {
       padding: 46px;
@@ -145,7 +153,7 @@
       font-weight: 900;
       border: 1px solid rgba(215,180,106,.35);
     }
-    .footer {
+    .report-note {
       margin-top: 34px;
       padding-top: 20px;
       border-top: 1px solid var(--line);
@@ -172,15 +180,32 @@
     @media print {
       body { background: #fff; color: #111; }
       .card, .hero { box-shadow: none; background: #fff; color: #111; border-color: #ddd; }
-      p, li, .table td, .footer { color: #333; }
+      p, li, .table td, .report-note { color: #333; }
       .print { display: none; }
       a { color: #111; }
     }
   </style>
 </head>
 <body>
-  <button class="print" onclick="window.print()">Print Report</button>
-  <main class="wrap">
+  <div class="site-shell">
+    <header class="topbar">
+      <a href="/#top" class="brand">
+        <span class="brand-mark">NA</span>
+        <span class="brand-text">Nadja Atwal</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/#about">About</a>
+        <a href="/podcast/">Podcast</a>
+        <a href="/speaker/">Speaking</a>
+        <a href="/press/">Press</a>
+        <a href="/booking/">Booking</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/report/">Report</a>
+      </nav>
+      <a class="nav-cta" href="/booking/">Book Nadja</a>
+    </header>
+    <button class="print" onclick="window.print()">Print Report</button>
+    <main class="wrap">
     <header class="hero">
       <div class="eyebrow">SEO & AI Optimization Report</div>
       <h1>NadjaAtwal.net Optimization Review</h1>
@@ -416,9 +441,22 @@
       </article>
     </section>
 
-    <footer class="footer">
+    <div class="report-note">
       Prepared for SEO and AI Optimization review. Scores are practical audit estimates based on crawlable content, public page signals, entity clarity, structured content, and AI answer-readiness.
+    </div>
+    </main>
+    <footer class="footer site-footer">
+      <p>© 2026 Nadja Atwal. Perceived Reality.</p>
+      <div>
+        <a href="/#about">About</a>
+        <a href="/podcast/">Podcast</a>
+        <a href="/speaker/">Speaking</a>
+        <a href="/press/">Press</a>
+        <a href="/booking/">Booking</a>
+        <a href="mailto:nadjaatwal@gmail.com">Contact</a>
+        <a href="/privacy-policy/">Privacy Policy</a>
+      </div>
     </footer>
-  </main>
+  </div>
 </body>
 </html>
