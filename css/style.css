@@ -958,6 +958,128 @@ h1 span {
   }
 }
 
+.editorial-meta {
+  width: min(var(--max), calc(100% - 36px));
+  margin: 24px auto 0;
+  padding: 14px 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.045);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.editorial-meta a,
+.related-links a,
+.trust-links a {
+  color: var(--gold);
+  font-weight: 800;
+}
+
+.content-stack {
+  display: grid;
+  gap: 22px;
+}
+
+.content-stack h3 {
+  margin-top: 8px;
+  font-size: clamp(1.45rem, 2.6vw, 2.15rem);
+  line-height: 1.1;
+}
+
+.content-stack ul {
+  display: grid;
+  gap: 12px;
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.process-grid {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.process-card {
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+
+.process-card span {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.process-card h3 {
+  margin-bottom: 12px;
+  font-size: clamp(1.45rem, 2.5vw, 2rem);
+  line-height: 1.05;
+}
+
+.process-card p,
+.related-links p,
+.trust-note p {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.related-links,
+.trust-note {
+  width: min(var(--max), calc(100% - 36px));
+  margin: 72px auto 0;
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.related-links h2,
+.trust-note h2 {
+  margin-bottom: 18px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+}
+
+.related-links nav,
+.trust-links {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+}
+
+.footer-trust {
+  width: 100%;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 640px) {
+  .editorial-meta,
+  .related-links,
+  .trust-note {
+    width: calc(100% - 24px);
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .answer-block,
 .page-hero {
   position: relative;

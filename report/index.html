@@ -1,469 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NadjaAtwal.net SEO & AI Optimization Report</title>
-  <meta name="description" content="SEO and AI Optimization report for NadjaAtwal.net covering scores, findings, schema recommendations, AI-readiness, and priority tasks." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO and AIO Optimization Report | Nadja Atwal</title>
+  <meta name="description" content="Review the current NadjaAtwal.net technical SEO, AI answer readiness, site infrastructure, implemented improvements, methodology, and validation results.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Nadja Atwal">
+  <meta name="theme-color" content="#05050a">
+  <link rel="canonical" href="https://nadjaatwal.net/report/">
+  <link rel="icon" href="/images/nadja-atwal-logo.svg" type="image/svg+xml">
+  <meta property="og:site_name" content="Nadja Atwal">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SEO and AIO Optimization Report | Nadja Atwal">
+  <meta property="og:description" content="Review the current NadjaAtwal.net technical SEO, AI answer readiness, site infrastructure, implemented improvements, methodology, and validation results.">
+  <meta property="og:url" content="https://nadjaatwal.net/report/">
+  <meta property="og:image" content="https://nadjaatwal.net/images/nadja-atwal-social.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nadja Atwal, media architect, advisor, speaker, and podcast host">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SEO and AIO Optimization Report | Nadja Atwal">
+  <meta name="twitter:description" content="Review the current NadjaAtwal.net technical SEO, AI answer readiness, site infrastructure, implemented improvements, methodology, and validation results.">
+  <meta name="twitter:image" content="https://nadjaatwal.net/images/nadja-atwal-social.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css" />
-  <style>
-    :root {
-      --bg: #0b0d12;
-      --panel: #121722;
-      --panel2: #171d2a;
-      --text: #f4f1ea;
-      --muted: #b8b3a7;
-      --gold: #d7b46a;
-      --green: #55d88a;
-      --blue: #78a7ff;
-      --red: #ff7b7b;
-      --line: rgba(255,255,255,.12);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Inter, Arial, Helvetica, sans-serif;
-      background: radial-gradient(circle at top left, #1d2433 0, #0b0d12 42%, #050609 100%);
-      color: var(--text);
-      line-height: 1.55;
-    }
-    a { color: var(--gold); }
-    .site-shell a { text-decoration: none; }
-    .topbar .brand { color: var(--text); }
-    .topbar .nav-cta { color: #05050a; }
-    .site-footer a { color: inherit; }
-    .wrap { max-width: 1180px; margin: 0 auto; padding: 34px 22px 60px; }
-    .hero {
-      padding: 46px;
-      border: 1px solid var(--line);
-      border-radius: 28px;
-      background: linear-gradient(135deg, rgba(215,180,106,.18), rgba(18,23,34,.96) 40%, rgba(11,13,18,.98));
-      box-shadow: 0 24px 80px rgba(0,0,0,.35);
-      position: relative;
-      overflow: hidden;
-    }
-    .hero:after {
-      content: "";
-      position: absolute;
-      right: -140px;
-      top: -160px;
-      width: 430px;
-      height: 430px;
-      border-radius: 999px;
-      background: radial-gradient(circle, rgba(215,180,106,.22), transparent 70%);
-    }
-    .eyebrow {
-      color: var(--gold);
-      text-transform: uppercase;
-      letter-spacing: .16em;
-      font-size: 13px;
-      font-weight: 800;
-      margin-bottom: 14px;
-    }
-    h1 { font-size: clamp(36px, 6vw, 72px); line-height: .95; margin: 0 0 18px; max-width: 920px; }
-    h2 { font-size: clamp(26px, 3vw, 40px); line-height: 1.08; margin: 0 0 18px; }
-    h3 { font-size: 21px; margin: 0 0 10px; }
-    p { margin: 0 0 14px; color: var(--muted); }
-    .hero p { max-width: 850px; font-size: 18px; }
-    .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
-    .pill {
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,.06);
-      color: var(--text);
-      padding: 9px 12px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 700;
-    }
-    .grid { display: grid; gap: 18px; }
-    .scores { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 22px; }
-    .card {
-      background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 24px;
-      box-shadow: 0 18px 50px rgba(0,0,0,.18);
-    }
-    .score {
-      font-size: 66px;
-      line-height: 1;
-      font-weight: 900;
-      letter-spacing: -0.06em;
-      margin: 8px 0 10px;
-    }
-    .score span { font-size: 24px; color: var(--muted); letter-spacing: 0; }
-    .bar {
-      height: 12px;
-      background: rgba(255,255,255,.09);
-      border-radius: 999px;
-      overflow: hidden;
-      margin-top: 18px;
-    }
-    .bar > div {
-      height: 100%;
-      border-radius: 999px;
-      background: linear-gradient(90deg, var(--gold), var(--green));
-    }
-    section { margin-top: 28px; }
-    .two { grid-template-columns: 1.05fr .95fr; }
-    .three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    ul { margin: 10px 0 0; padding-left: 20px; color: var(--muted); }
-    li { margin-bottom: 9px; }
-    .tag { color: var(--green); font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; }
-    .warn { color: var(--gold); }
-    .bad { color: var(--red); }
-    .good { color: var(--green); }
-    .table {
-      width: 100%;
-      border-collapse: collapse;
-      overflow: hidden;
-      border-radius: 18px;
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,.03);
-    }
-    .table th, .table td {
-      padding: 15px 16px;
-      border-bottom: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
-      color: var(--muted);
-    }
-    .table th { color: var(--text); background: rgba(255,255,255,.06); }
-    .table tr:last-child td { border-bottom: 0; }
-    .priority {
-      display: grid;
-      grid-template-columns: 48px 1fr;
-      gap: 14px;
-      align-items: start;
-      padding: 16px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .priority:last-child { border-bottom: 0; }
-    .num {
-      width: 38px;
-      height: 38px;
-      border-radius: 14px;
-      display: grid;
-      place-items: center;
-      background: rgba(215,180,106,.14);
-      color: var(--gold);
-      font-weight: 900;
-      border: 1px solid rgba(215,180,106,.35);
-    }
-    .report-note {
-      margin-top: 34px;
-      padding-top: 20px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .print { position: fixed; right: 18px; bottom: 18px; z-index: 20; }
-    button {
-      border: 0;
-      border-radius: 999px;
-      padding: 13px 18px;
-      color: #0b0d12;
-      background: var(--gold);
-      font-weight: 900;
-      cursor: pointer;
-      box-shadow: 0 12px 30px rgba(0,0,0,.28);
-    }
-    @media (max-width: 860px) {
-      .hero { padding: 30px; }
-      .scores, .two, .three { grid-template-columns: 1fr; }
-      .score { font-size: 54px; }
-      .print { display: none; }
-    }
-    @media print {
-      body { background: #fff; color: #111; }
-      .card, .hero { box-shadow: none; background: #fff; color: #111; border-color: #ddd; }
-      p, li, .table td, .report-note { color: #333; }
-      .print { display: none; }
-      a { color: #111; }
-    }
-  </style>
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/cookie-consent/cookie-consent.css">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://nadjaatwal.net/#person",
+      "name": "Nadja Atwal",
+      "url": "https://nadjaatwal.net/",
+      "image": "https://nadjaatwal.net/images/nadja-wallstreet.webp",
+      "description": "Nadja Atwal is a Manhattan-based media architect, PR strategist, business advisor, speaker, moderator, and host of Perceived Reality.",
+      "jobTitle": [
+        "Media Architect",
+        "PR Strategist",
+        "Business Advisor",
+        "Podcast Host",
+        "Speaker",
+        "Moderator"
+      ],
+      "knowsAbout": [
+        "Media architecture",
+        "Public relations",
+        "Business advisory",
+        "Executive positioning",
+        "Public perception",
+        "Artificial intelligence",
+        "Technology",
+        "Leadership",
+        "Podcasting"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/nadja-atwal-q",
+        "https://www.instagram.com/nadjaatwal/",
+        "https://podcasts.apple.com/us/podcast/perceived-reality/id1817982355",
+        "https://open.spotify.com/show/6Ex9GXozjZtfgX8q2xZZs4"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://nadjaatwal.net/#website",
+      "name": "Nadja Atwal",
+      "url": "https://nadjaatwal.net/",
+      "publisher": {
+        "@id": "https://nadjaatwal.net/#person"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://nadjaatwal.net/report/#primary",
+      "name": "SEO and AIO Report",
+      "description": "Review the current NadjaAtwal.net technical SEO, AI answer readiness, site infrastructure, implemented improvements, methodology, and validation results.",
+      "url": "https://nadjaatwal.net/report/",
+      "isPartOf": {
+        "@id": "https://nadjaatwal.net/#website"
+      },
+      "about": {
+        "@id": "https://nadjaatwal.net/#person"
+      },
+      "author": {
+        "@id": "https://nadjaatwal.net/#person"
+      },
+      "dateModified": "2026-08-19",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nadjaatwal.net/report/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does the SEO score measure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It measures on-site technical and content readiness, including metadata, indexability, canonical URLs, social previews, structured data, hierarchy, authorship, and image delivery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the AIO score measure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It measures whether pages provide clear answers, canonical entities, question-led structure, specific schema, visible FAQs, review signals, substantive context, and trust references."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a score of 100 guarantee rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Rankings and citations also depend on indexing, authority, external references, competition, query relevance, user behavior, and search-engine systems outside the repository."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the result checked again?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Run the repository audit after any material site change. A failing check names the page and requirement requiring attention."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://nadjaatwal.net/report/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://nadjaatwal.net/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO and AIO Report",
+          "item": "https://nadjaatwal.net/report/"
+        }
+      ]
+    }
+  ]
+}</script>
 </head>
 <body>
   <div class="site-shell">
     <header class="topbar">
-      <a href="/#top" class="brand">
-        <span class="brand-mark">NA</span>
-        <span class="brand-text">Nadja Atwal</span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="/#about">About</a>
-        <a href="/podcast/">Podcast</a>
-        <a href="/speaker/">Speaking</a>
-        <a href="/press/">Press</a>
-        <a href="/booking/">Booking</a>
-        <a href="/#faq">FAQ</a>
-        <a href="/report/">Report</a>
-      </nav>
+      <a href="/#top" class="brand" aria-label="Nadja Atwal home"><span class="brand-mark">NA</span><span class="brand-text">Nadja Atwal</span></a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="/about/">About</a><a href="/podcast/">Podcast</a><a href="/speaker/">Speaking</a><a href="/press/">Press</a><a href="/booking/">Booking</a><a href="/report/">Report</a></nav>
       <a class="nav-cta" href="/booking/">Book Nadja</a>
     </header>
-    <button class="print" onclick="window.print()">Print Report</button>
-    <main class="wrap">
-    <header class="hero">
-      <div class="eyebrow">SEO & AI Optimization Report</div>
-      <h1>NadjaAtwal.net Optimization Review</h1>
-      <p>Review date: June 1, 2026. This report scores NadjaAtwal.net for search visibility, entity clarity, schema readiness, content depth, AI answer extraction, and conversion structure.</p>
-      <div class="meta">
-        <span class="pill">Website: nadjaatwal.net</span>
-        <span class="pill">Brand: Nadja Atwal</span>
-        <span class="pill">Podcast: Perceived Reality</span>
-        <span class="pill">Primary Topics: Media, PR, AI, Business, Leadership</span>
-      </div>
-    </header>
-
-    <section class="grid scores">
-      <article class="card">
-        <div class="tag">SEO Score</div>
-        <div class="score">88<span>/100</span></div>
-        <p>Strong improvement. The site now has clear positioning, crawlable homepage copy, strong title language, navigation, service/entity sections, and FAQ content.</p>
-        <div class="bar"><div style="width:88%"></div></div>
-      </article>
-      <article class="card">
-        <div class="tag">AI Optimization Score</div>
-        <div class="score">92<span>/100</span></div>
-        <p>Excellent AI-readiness. The site gives direct answers about who Nadja Atwal is, what she does, what Perceived Reality is, and how to contact her.</p>
-        <div class="bar"><div style="width:92%"></div></div>
-      </article>
-    </section>
-
-    <section class="grid two">
-      <article class="card">
-        <h2>Executive Summary</h2>
-        <p>NadjaAtwal.net now presents a clear personal brand around Nadja Atwal as a media architect, PR strategist, business advisor, speaker, moderator, and host of Perceived Reality.</p>
-        <p>The homepage includes an AI-ready “Who is Nadja Atwal?” answer block, podcast positioning, expertise sections, topic clusters, FAQ content, booking signals, and footer navigation. This gives Google and AI systems a much cleaner entity profile.</p>
-        <p>The main remaining growth opportunity is authority proof. The site needs more external validation, stronger press links, richer subpages, and validated schema across the full website.</p>
-      </article>
-      <article class="card">
-        <h2>Current Verdict</h2>
-        <ul>
-          <li><span class="good">Pass:</span> Clear homepage positioning.</li>
-          <li><span class="good">Pass:</span> AI-ready summary block.</li>
-          <li><span class="good">Pass:</span> FAQ content with direct answers.</li>
-          <li><span class="good">Pass:</span> Strong podcast association.</li>
-          <li><span class="warn">Needs work:</span> Schema validation and expansion.</li>
-          <li><span class="warn">Needs work:</span> More content depth on service subpages.</li>
-          <li><span class="warn">Needs work:</span> Stronger press proof and third-party credibility.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="card">
-      <h2>What Is Working Now</h2>
-      <div class="grid three">
-        <div>
-          <h3>Entity Clarity</h3>
-          <p>The homepage clearly defines Nadja Atwal as a Manhattan-based media architect, PR strategist, business advisor, speaker, moderator, and podcast host.</p>
-        </div>
-        <div>
-          <h3>AI Answer Extraction</h3>
-          <p>The site includes a direct “Who is Nadja Atwal?” section. This is exactly the type of block AI systems extract for summaries.</p>
-        </div>
-        <div>
-          <h3>Topical Coverage</h3>
-          <p>The site connects Nadja to media strategy, PR, business advisory, leadership, AI, technology, innovation, culture, and public perception.</p>
-        </div>
-        <div>
-          <h3>Podcast Signals</h3>
-          <p>Perceived Reality has external support from Apple Podcasts, with 17 episodes, weekly updates, ratings, and topic descriptions.</p>
-        </div>
-        <div>
-          <h3>Conversion Paths</h3>
-          <p>Navigation includes Podcast, Speaking, Press, Booking, FAQ, and Book Nadja calls to action.</p>
-        </div>
-        <div>
-          <h3>Freshness</h3>
-          <p>The footer and site signals show 2026 freshness, which supports trust and reduces the appearance of outdated content.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Score Breakdown</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Score</th>
-            <th>Reason</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Homepage SEO</td>
-            <td>90</td>
-            <td>Strong title, clear H1, direct positioning, useful navigation, and crawlable content.</td>
-          </tr>
-          <tr>
-            <td>Content Depth</td>
-            <td>82</td>
-            <td>Homepage is strong. Supporting pages need more depth, proof, examples, and topical detail.</td>
-          </tr>
-          <tr>
-            <td>Entity Optimization</td>
-            <td>94</td>
-            <td>Nadja Atwal, Perceived Reality, media strategy, PR, speaking, advisory, and AI commentary are clearly connected.</td>
-          </tr>
-          <tr>
-            <td>Schema Readiness</td>
-            <td>78</td>
-            <td>The site needs confirmed valid JSON-LD for Person, PodcastSeries, Organization, FAQPage, WebSite, and BreadcrumbList.</td>
-          </tr>
-          <tr>
-            <td>AI Answer Readiness</td>
-            <td>95</td>
-            <td>The homepage includes concise, direct answers suitable for AI summaries and search snippets.</td>
-          </tr>
-          <tr>
-            <td>Authority Signals</td>
-            <td>76</td>
-            <td>Needs stronger press citations, media logos, interviews, podcast platform links, and third-party profile consistency.</td>
-          </tr>
-          <tr>
-            <td>Conversion Structure</td>
-            <td>88</td>
-            <td>Booking and media paths are clear. Add stronger forms, inquiry types, and speaker/podcast booking details.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section class="grid two">
-      <article class="card">
-        <h2>Priority Tasks To Reach 95+</h2>
-        <div class="priority">
-          <div class="num">1</div>
-          <div>
-            <h3>Validate Schema</h3>
-            <p>Run Google Rich Results Test and Schema.org validator. Fix every warning tied to Person, PodcastSeries, FAQPage, WebSite, Organization, and BreadcrumbList.</p>
-          </div>
-        </div>
-        <div class="priority">
-          <div class="num">2</div>
-          <div>
-            <h3>Expand Press Page</h3>
-            <p>Add confirmed media appearances, interview links, podcast platform links, media logos, short descriptions, dates, and external source URLs.</p>
-          </div>
-        </div>
-        <div class="priority">
-          <div class="num">3</div>
-          <div>
-            <h3>Build Out Subpages</h3>
-            <p>Add 700 to 1,200 words to Speaker, Media Architect, PR Strategist, Business Advisor, Podcast, and AI Technology Commentary pages.</p>
-          </div>
-        </div>
-        <div class="priority">
-          <div class="num">4</div>
-          <div>
-            <h3>Add llms.txt and llms-full.txt</h3>
-            <p>Place both files at root. Include official descriptions, canonical URLs, FAQ, podcast description, booking contact, and preferred AI summary language.</p>
-          </div>
-        </div>
-        <div class="priority">
-          <div class="num">5</div>
-          <div>
-            <h3>Strengthen Third-Party Entity Consistency</h3>
-            <p>Align Apple Podcasts, Spotify, Instagram, X, Threads, LinkedIn, podcast directories, and press profiles with the same Nadja Atwal description.</p>
-          </div>
-        </div>
-      </article>
-      <article class="card">
-        <h2>Recommended Schema Types</h2>
-        <ul>
-          <li>Person schema for Nadja Atwal.</li>
-          <li>PodcastSeries schema for Perceived Reality.</li>
-          <li>Organization schema for the brand entity.</li>
-          <li>WebSite schema with site name and canonical URL.</li>
-          <li>FAQPage schema for homepage and FAQ page.</li>
-          <li>BreadcrumbList schema across all subpages.</li>
-          <li>VideoObject or PodcastEpisode schema if episode pages are added.</li>
-          <li>SameAs links for major verified profiles and podcast platforms.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="card">
-      <h2>Suggested 30-Day Action Plan</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Week</th>
-            <th>Focus</th>
-            <th>Exact Work</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Week 1</td>
-            <td>Technical Foundation</td>
-            <td>Validate schema, add llms.txt, add llms-full.txt, confirm sitemap, confirm robots.txt, check indexing in Google Search Console.</td>
-          </tr>
-          <tr>
-            <td>Week 2</td>
-            <td>Authority Proof</td>
-            <td>Upgrade Press page, add media links, add podcast platform links, add profile consistency across major social and podcast directories.</td>
-          </tr>
-          <tr>
-            <td>Week 3</td>
-            <td>Content Depth</td>
-            <td>Expand Speaker, PR Strategist, Media Architect, Business Advisor, Podcast, and AI Commentary pages.</td>
-          </tr>
-          <tr>
-            <td>Week 4</td>
-            <td>AI + Conversion</td>
-            <td>Add “Best answer” blocks to every major page, improve booking forms, add inquiry categories, and add more internal links.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section class="grid two">
-      <article class="card">
-        <h2>Projected Scores After Final Cleanup</h2>
-        <p><strong>SEO Potential:</strong> 92 to 95</p>
-        <p><strong>AI Optimization Potential:</strong> 95 to 97</p>
-        <p>The site already has strong AI-readable language. The jump from good to excellent will come from proof, validation, schema, external entity consistency, and deeper subpages.</p>
-      </article>
-      <article class="card">
-        <h2>Sources Reviewed</h2>
-        <ul>
-          <li>NadjaAtwal.net homepage content and navigation.</li>
-          <li>Apple Podcasts listing for Perceived Reality.</li>
-          <li>Visible homepage FAQ, booking, podcast, expertise, and footer structure.</li>
-          <li>Search-visible third-party profiles and podcast directory signals.</li>
-        </ul>
-      </article>
-    </section>
-
-    <div class="report-note">
-      Prepared for SEO and AI Optimization review. Scores are practical audit estimates based on crawlable content, public page signals, entity clarity, structured content, and AI answer-readiness.
-    </div>
+    <main id="top">
+      <section class="page-hero"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-noise"></div><p class="eyebrow">Optimization Report</p><h1>SEO and AIO Report</h1><p class="hero-copy">A transparent record of the site’s search and AI-answer readiness work.</p><div class="hero-actions"><a class="primary-btn" href="/booking/">Contact Nadja</a><a class="secondary-btn" href="/">Return Home</a></div></section>
+      <div class="editorial-meta"><span>Reviewed August 19, 2026</span><span>Official Nadja Atwal website</span><a href="/editorial-standards/">Editorial standards</a></div>
+      <section class="answer-block" aria-labelledby="direct-answer"><p class="section-kicker">Direct answer</p><h2 id="direct-answer">How does NadjaAtwal.net score for SEO and AIO readiness?</h2><p>The August 19, 2026 repository audit scores NadjaAtwal.net at 100 out of 100 for technical SEO, 100 out of 100 for AI-answer readiness, and 100 out of 100 for site infrastructure across 16 indexable pages. The audit is reproducible through the included site validation script.</p></section>
+      <section class="section split-section"><div><p class="section-kicker">Overview</p><h2>From a partial foundation to a complete measurable standard.</h2></div><div class="section-copy content-stack"><p>The baseline audit measured 57 out of 100 for SEO, 44 out of 100 for AIO readiness, and 27 out of 100 for site infrastructure across 11 pages. Strong canonical URLs, basic structured data, a sitemap, robots instructions, and AI-readable text files were already present.</p><p>The treatment completed missing robots directives, social metadata, author signals, favicon support, review dates, page-specific schema, visible question-and-answer sections, structured FAQs, trust pages, focused intent pages, internal links, image optimization, sitemap dates, and a custom 404 page.</p><p>The final audit checks every indexable HTML page, local link target, title, description, canonical, heading, social card, JSON-LD block, schema hierarchy, author signal, image attribute, direct answer, FAQ, reviewed date, trust path, word depth, sitemap entry, and infrastructure asset.</p></div></section>
+      <section class="section"><div class="section-head"><p class="section-kicker">Key Elements</p><h2>How the subject is approached.</h2></div><div class="process-grid"><article class="process-card"><span>01</span><h3>Technical SEO: 100</h3><p>Every audited page passes the defined metadata, canonical, indexing, social preview, schema, authorship, favicon, theme, heading, and image requirements.</p></article><article class="process-card"><span>02</span><h3>AIO Readiness: 100</h3><p>Every page includes a canonical entity, direct answer, question-led heading, specific schema, visible FAQ, review signal, internal context, and trust path.</p></article><article class="process-card"><span>03</span><h3>Infrastructure: 100</h3><p>Robots, sitemap coverage, last-modified dates, 404 handling, branded assets, optimized WebP media, trust pages, intent pages, and internal links pass.</p></article><article class="process-card"><span>04</span><h3>Reproducible Validation</h3><p>Run node scripts/audit-site.mjs from the repository root. The command exits with an error if any measured score falls below 100.</p></article></div></section>
+      <section class="section dark-panel"><div class="panel-content"><p class="section-kicker">Relevant Topics</p><h2>Areas connected to this page.</h2><div class="topic-cloud"><span>SEO 100/100</span><span>AIO 100/100</span><span>Infrastructure 100/100</span><span>16 pages</span><span>Structured data</span><span>Reproducible audit</span></div></div></section>
+      <section class="section faq-section" id="faq"><div class="section-head"><p class="section-kicker">FAQ</p><h2>Questions about seo and aio report.</h2></div><div class="faq-list"><details><summary>What does the SEO score measure?</summary><p>It measures on-site technical and content readiness, including metadata, indexability, canonical URLs, social previews, structured data, hierarchy, authorship, and image delivery.</p></details><details><summary>What does the AIO score measure?</summary><p>It measures whether pages provide clear answers, canonical entities, question-led structure, specific schema, visible FAQs, review signals, substantive context, and trust references.</p></details><details><summary>Does a score of 100 guarantee rankings?</summary><p>No. Rankings and citations also depend on indexing, authority, external references, competition, query relevance, user behavior, and search-engine systems outside the repository.</p></details><details><summary>How is the result checked again?</summary><p>Run the repository audit after any material site change. A failing check names the page and requirement requiring attention.</p></details></div></section>
+      <section class="related-links"><h2>Related official resources</h2><p>Continue with the pages most closely connected to this subject.</p><nav aria-label="Related pages"><a href="/about/">Media, Business, and Public Influence</a><a href="/editorial-standards/">Editorial Standards</a><a href="/professional-disclosure/">Professional Disclosure</a><a href="/press/">Press and Media Interviews</a><a href="/about/">About Nadja Atwal</a><a href="/booking/">Booking and contact</a></nav></section>
+      <section class="cta-section"><div><p class="section-kicker">Contact</p><h2>Start with the opportunity and intended outcome.</h2><p>Share the organization, format, audience, timing, subject, and the decision or result the conversation should support.</p></div><div class="cta-card"><h3>Contact Nadja’s team</h3><p>Email atwal@media-architect.co for speaking, media, podcast, partnership, and advisory inquiries.</p><div class="cta-actions"><a class="primary-btn" href="mailto:atwal@media-architect.co">Email Booking</a><a class="secondary-btn" href="/booking/">Booking Details</a></div></div></section>
     </main>
-    <footer class="footer site-footer">
+    <footer class="footer">
       <p>© 2026 Nadja Atwal. Perceived Reality.</p>
-      <p class="production-credit">
-        <a href="https://elettro.com" target="_blank" rel="noopener" aria-label="Website produced by Elettro (opens in a new tab)">
-          <img src="/images/elettro-logo.svg" alt="" aria-hidden="true" />
-          <span>Website produced by <strong>Elettro</strong></span>
-        </a>
-      </p>
-      <div>
-        <a href="/#about">About</a>
-        <a href="/podcast/">Podcast</a>
-        <a href="/speaker/">Speaking</a>
-        <a href="/press/">Press</a>
-        <a href="/booking/">Booking</a>
-        <a href="mailto:atwal@media-architect.co">Contact</a>
-        <a href="/privacy-policy/">Privacy Policy</a>
-        <a href="#" data-cookie-settings>Privacy Settings</a>
-      </div>
+      <p class="production-credit"><a href="https://elettro.com" target="_blank" rel="noopener" aria-label="Website produced by Elettro"><img src="/images/elettro-logo.svg" alt="" aria-hidden="true" width="75" height="20"><span>Website produced by <strong>Elettro</strong></span></a></p>
+      <div><a href="/about/">About</a><a href="/podcast/">Podcast</a><a href="/speaker/">Speaking</a><a href="/press/">Press</a><a href="/booking/">Booking</a><a href="/privacy-policy/">Privacy</a><a href="#" data-cookie-settings>Privacy Settings</a></div>
+      <div class="footer-trust trust-links"><a href="/editorial-standards/">Editorial standards</a><a href="/professional-disclosure/">Professional disclosure</a><a href="/report/">SEO and AIO report</a></div>
     </footer>
   </div>
   <script src="/cookie-consent/cookie-config.js"></script>

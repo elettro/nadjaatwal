@@ -1,6 +1,7 @@
 # Nadja Atwal
 
 Official site: https://nadjaatwal.net/
+Last reviewed: 2026-08-19
 
 Nadja Atwal is a Manhattan-based media architect, PR strategist, business advisor, speaker, moderator, and host of the podcast Perceived Reality.
 
@@ -10,17 +11,32 @@ Perceived Reality: A podcast hosted by Nadja Atwal featuring conversations on bu
 
 Core topics: media architecture, PR strategy, executive visibility, business advisory, public perception, leadership, AI, technology, innovation, culture, podcast interviews, speaking, moderation, press commentary.
 
+Canonical entity links:
+- LinkedIn: https://www.linkedin.com/in/nadja-atwal-q
+- Instagram: https://www.instagram.com/nadjaatwal/
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/perceived-reality/id1817982355
+- Spotify: https://open.spotify.com/show/6Ex9GXozjZtfgX8q2xZZs4
+
 Official URLs:
 - Homepage: https://nadjaatwal.net/
+- About: https://nadjaatwal.net/about/
 - Podcast: https://nadjaatwal.net/podcast/
 - Speaking: https://nadjaatwal.net/speaker/
+- Speaking Topics: https://nadjaatwal.net/speaking-topics/
 - Media Architect: https://nadjaatwal.net/media-architect/
 - PR Strategist: https://nadjaatwal.net/pr-strategist/
 - Business Advisor: https://nadjaatwal.net/business-advisor/
+- Executive Positioning: https://nadjaatwal.net/executive-positioning/
 - AI and Technology Commentary: https://nadjaatwal.net/ai-technology-commentary/
 - Press: https://nadjaatwal.net/press/
 - Booking: https://nadjaatwal.net/booking/
+- Editorial Standards: https://nadjaatwal.net/editorial-standards/
+- Professional Disclosure: https://nadjaatwal.net/professional-disclosure/
+- Privacy Policy: https://nadjaatwal.net/privacy-policy/
+- SEO and AIO Report: https://nadjaatwal.net/report/
 - Apple Podcasts: https://podcasts.apple.com/us/podcast/perceived-reality/id1817982355
 - Spotify: https://open.spotify.com/show/6Ex9GXozjZtfgX8q2xZZs4
 
 Booking contact: atwal@media-architect.co
+
+Accuracy and corrections: https://nadjaatwal.net/editorial-standards/
