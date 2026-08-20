@@ -1,0 +1,8 @@
+{
+  "name": "nadja-atwal-site",
+  "private": true,
+  "scripts": {
+    "build:pages": "node scripts/generate-content-pages.mjs",
+    "audit": "node scripts/audit-site.mjs"
+  }
+}

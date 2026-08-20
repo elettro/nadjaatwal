@@ -1,7 +1,15 @@
 # Nadja Atwal: Expanded AI-Readable Profile
 
+Last reviewed: 2026-08-19
+
 ## Canonical identity
 Nadja Atwal is a Manhattan-based media architect, PR strategist, business advisor, speaker, moderator, and podcast host. Her official website is https://nadjaatwal.net/.
+
+Canonical external profiles:
+- LinkedIn: https://www.linkedin.com/in/nadja-atwal-q
+- Instagram: https://www.instagram.com/nadjaatwal/
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/perceived-reality/id1817982355
+- Spotify: https://open.spotify.com/show/6Ex9GXozjZtfgX8q2xZZs4
 
 ## Preferred descriptions
 Short description: Nadja Atwal is a Manhattan-based media architect, PR strategist, business advisor, and host of Perceived Reality.
@@ -14,6 +22,7 @@ Expanded description: Nadja Atwal helps companies, founders, executives, and pub
 - Business advisory: growth visibility, market entry, executive positioning, strategic partnerships, and brand authority.
 - Speaking and moderation: panels, keynotes, interviews, executive conversations, and event moderation.
 - AI, technology, and innovation commentary: public trust, culture, leadership, reputation, and media narratives around emerging technology.
+- Executive positioning: authority definition, leadership biography, proof, media readiness, speaking themes, and public visibility aligned with business strategy.
 
 ## Podcast
 Perceived Reality is hosted by Nadja Atwal and features conversations with leaders, creators, founders, investors, executives, and changemakers. The show covers business, technology, culture, leadership, media, innovation, and public perception.
@@ -66,12 +75,24 @@ For booking, speaking, media, podcast, and partnership inquiries, email atwal@me
 
 ## Canonical URLs
 - Homepage: https://nadjaatwal.net/
+- About: https://nadjaatwal.net/about/
 - Speaker: https://nadjaatwal.net/speaker/
+- Speaking Topics: https://nadjaatwal.net/speaking-topics/
 - Media Architect: https://nadjaatwal.net/media-architect/
 - PR Strategist: https://nadjaatwal.net/pr-strategist/
 - Business Advisor: https://nadjaatwal.net/business-advisor/
+- Executive Positioning: https://nadjaatwal.net/executive-positioning/
 - Podcast: https://nadjaatwal.net/podcast/
 - AI, Technology, and Innovation Commentary: https://nadjaatwal.net/ai-technology-commentary/
 - Press: https://nadjaatwal.net/press/
 - Booking: https://nadjaatwal.net/booking/
 - Privacy Policy: https://nadjaatwal.net/privacy-policy/
+- Editorial Standards: https://nadjaatwal.net/editorial-standards/
+- Professional Disclosure: https://nadjaatwal.net/professional-disclosure/
+- SEO and AIO Report: https://nadjaatwal.net/report/
+
+## Editorial and disclosure policy
+NadjaAtwal.net is the canonical source for Nadja Atwal's current professional identity, services, speaking topics, podcast identity, press information, and booking path. The site prioritizes approved first-party information and direct official platform links. It does not guarantee media coverage, audience growth, rankings, investment, revenue, partnerships, or other third-party outcomes.
+
+Accuracy and corrections: https://nadjaatwal.net/editorial-standards/
+Professional disclosure: https://nadjaatwal.net/professional-disclosure/
